@@ -1,0 +1,59 @@
+h1 {
+	font-family: "Georgia";
+	padding-top: 20px;
+	text-align: center;	
+}
+
+h2 {
+	color: #ff6800;
+	font-size: 25px;
+	margin: -5px;
+	text-align: center;
+}
+
+
+.jumbotron {
+	background: url("../images/bg.jpg") no-repeat;
+	background-size: cover;
+	min-height: 800px;
+}
+
+.navbar-brand {
+	background: url("../images/logo.png") no-repeat;
+	width: 120px;
+	height: 40px;
+}
+
+.navbar-default {
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-collapse .nav.navbar-nav a:hover {
+ 	color: #ff6800;
+ }
+
+.navbar-default .navbar-nav>li>a {
+	color: #4990ce;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.nav.navbar-nav a:hover {
+ 	color: #ff6800;
+}
+
+
+@media (max-width: 750px) {
+	.navbar-default .navbar-collapse { 
+		background: rgba(0,0,0,0.05);
+		border-color: transparent;	
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #4990ce;
+		font-size: 20px;
+		text-align: center;	
+	}
+}
+
+
